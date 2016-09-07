@@ -1,0 +1,96 @@
+.jumbotron {
+  background-color: #fab66f;
+  background: url('http://i.telegraph.co.uk/multimedia/archive/03312/ithaca_3312829k.jpg') repeat center center;
+  background-size: cover;
+  color: #ffffff;
+  text-align: center;
+  border: 1px solid #f2cb3b;
+  h2 {
+    color: #ffe5e5;
+    font-weight: bold;
+  }
+}
+
+.navbar-default {
+  .container-fluid {
+    background-color:#3a90f9;
+    .navbar-nav > li > a {
+      color:#ffffff;
+      font-size: 16px;
+      font-weight: bold;
+    }
+    .navbar-brand{
+      color:black;
+      font-size: 30px;
+      font-weight:blod;
+      font-family:'Hobo Std';
+      text-shadow: 10px 9px 5px #ffffff;
+    }
+  }
+}
+
+.container-fluid {
+  padding: 10px 10px;
+}
+
+
+/*flash*/
+.alert-error {
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    color: #b94a48;
+    text-align: left;
+ }
+
+.alert-alert {
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    color: #b94a48;
+    text-align: left;
+ }
+
+.alert-success {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #468847;
+    text-align: left;
+ }
+
+.alert-notice {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #468847;
+    text-align: left;
+ }
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Portrait phones and smaller
+@media (max-width: 480px) {
+.navbar-default {
+ .container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: -70px;
+    margin-left: auto;
+  }
+} */
