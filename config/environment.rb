@@ -7,7 +7,7 @@ require 'carrierwave/orm/activerecord'
 Rails.application.initialize!
 
 
-# to get rid of field_with_errors wrapper
+# to get rid of field_with_errors wrapper in sign up page and the rest
 ActionView::Base.field_error_proc = Proc.new do |html_tag, instance|
   html_tag.html_safe
 end

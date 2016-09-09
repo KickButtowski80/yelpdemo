@@ -14,7 +14,7 @@ gem 'fog'
 gem "figaro"
 gem "mini_magick" #resize uploaded pic automatilcally 
 gem 'devise'      #log in or out pages ...
-
+gem 'bootstrap_form'
 group :development, :test do
   gem 'sqlite3'
   gem 'spring'
