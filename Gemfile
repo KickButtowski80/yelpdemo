@@ -18,6 +18,8 @@ gem 'devise'      #log in or out pages ...
 group :development, :test do
   gem 'sqlite3'
   gem 'spring'
+  gem 'capistrano', '~> 3.2.1'
+  gem 'capistrano-secrets-yml', '~> 1.0.0'
 end
 
 group :production do
