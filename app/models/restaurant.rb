@@ -10,6 +10,6 @@ class Restaurant < ActiveRecord::Base
     validates :website, format: { with: /\Ahttps?:\/\/.*\z/,
     message: 'must be start with http:// or https//'}
     
-    validates :address, format: { with: /\A\d+[^,]+,[^,]+,[A-Z]{2} |d{5}\z/,
-    message: 'must be in format 350 Fifth Avenue, New York, NY 10118'}
+  #  validates :address, format: { with: /\A\d+[^,]+,[^,]+,[A-Z]{2} |d{5}\z/,
+  #  message: 'must be in format 350 Fifth Avenue, New York, NY 10118'}
 end
