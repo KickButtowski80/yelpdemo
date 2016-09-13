@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 
 gem "rails"
-gem 'sqlite3'
+
 gem 'sass-rails'
 gem 'uglifier'
 gem 'coffee-rails'
@@ -21,6 +21,11 @@ gem 'mini_magick'
 gem 'fog-aws'
 gem 'searchkick'
  
+ 
+group :development do
+  gem 'sqlite3'
+end
+
 group :production do
   gem 'pg'
   gem 'puma'
