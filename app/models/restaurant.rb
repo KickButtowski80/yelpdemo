@@ -13,5 +13,6 @@ class Restaurant < ActiveRecord::Base
   #  validates :address, format: { with: /\A\d+[^,]+,[^,]+,[A-Z]{2} |d{5}\z/,
   #  message: 'must be in format 350 Fifth Avenue, New York, NY 10118'}
   
+  max_paginates_per 4
   
 end
