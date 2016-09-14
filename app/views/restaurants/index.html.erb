@@ -19,7 +19,7 @@
   </thead>
 
   <tbody>
-    <% @restaurants.each do |restaurant| %>
+    <% paginate @restaurants.each do |restaurant| %>
       <tr>
         <td><%= image_tag restaurant.image_url, size: "250x150"  %></td>
         <td><%= link_to restaurant.name, restaurant%></td>

@@ -20,7 +20,7 @@ gem 'devise'
 gem 'mini_magick'
 gem 'fog-aws'
 gem 'searchkick'
-gem 'will_paginate' 
+gem 'kaminari' 
  
 group :development do
   gem 'sqlite3'
